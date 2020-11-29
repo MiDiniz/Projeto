@@ -1,16 +1,311 @@
 <!DOCTYPE html>
-<html><!--raiz do documento html-->
+<html lang="en">
 <head>
-	<title>minha segunda página</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/estilo.css">
+	<title>Hospitalar</title>
 </head>
 <body>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-light"><!-- Iniciar Menu-->
+		<div class="container"> 
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedcontent">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-<img src="img\imagem.jpg">
-<h1>Minisério Ide de Jesus</h1>
+			<div class="collapse navbar-collapse" id="navbarSupportedcontent"> 
+				
+				<ul class="navbar-nav ml-auto mr-auto">
 
-<h2>E disse-lhes: Ide por todo o mundo, pregai o evangelho a toda criatura. Marcos16:15</h2>
-<p>Uma página Cristã, com o objetivo de interceder e propagar o evangelho com responsabilidade e amor àqueles que estão precisando de uma palavra de conforto através da palavra de Deus, a Bíblia.</p>
-<p>"Jesus é vida e amor. E disse-lhes: Ide por todo o mundo, pregai o evangelho a toda criatura. Marcos 16:15"</p>
+					<li><a href="#" class="nav-link">Home</a></li> 
+					<li><a href="#" class="nav-link">Hospitais</a></li>
+					<li><a href="#" class="nav-link">Tipos de Hospitais</a></li>
+					<li class="dropdown">
+						<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Gerenciar Hospitais</a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#" class="dropdown-item">Inserir Hospitais</a>
+							</li>
+							<li class="dropdown-divider"></li>
+							<li>
+								<a href="" class="dropdown-item">Editar Hospitais</a>
+							</li>
+							<li class="dropdown-divider"></li>
+							<li>
+								<a href="" class="dropdown-item">Excluir Hospitais</a>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#" class="nav-link">Registro</a></li>
+					<li><a href="#" class="nav-link">Login</a></li>
+				</ul>
+			</div><!--fim collapse-->
+		</div><!-- fim container-->
+	</nav><!-- fim menu-->
+	<main>
+		<section class="jumbotron"><!-- início título-->
+
+			<form class="input-group">
+				<input class="form-control" type="search" placeholder="Busque aqui!">
+				<button class="btn btn-primary ml-1">Pesquisar</button>
+			</form>
+		</section><!-- fim título-->
+		<section class="container"><!-- início título-->
+
+			<h2 class="text-center">
+				Adicionado Recentemente
+			</h2>
+			<div class="row">
+
+				<a href="#" class="col-lg-3 col-sm-6 col-md-6">
+					<figure>
+						<img src="img/hosp.jpg" alt="" class="img-fluid img-thumbnail">
+						<figcaption class="text-center">
+							Hospital número um em atendimento
+						</figcaption>
+					</figure>
+
+				</a>
+				<a href="#" class="col-lg-3 col-sm-6 col-md-6">
+					<figure>
+						<img src="img/hosp.jpg" alt="" class="img-fluid img-thumbnail">
+						<figcaption class="text-center">
+							Hospital número um em atendimento
+						</figcaption>
+					</figure>
+
+				</a>
+				<a href="#" class="col-lg-3 col-sm-6 col-md-6">
+					<figure>
+						<img src="img/hosp.jpg" alt="" class="img-fluid img-thumbnail">
+						<figcaption class="text-center">
+							Hospital número um em atendimento
+						</figcaption>
+					</figure>
+
+				</a>
+				<a href="#" class="col-lg-3 col-sm-6 col-md-6">
+					<figure>
+						<img src="img/hosp.jpg" alt="" class="img-fluid img-thumbnail">
+						<figcaption class="text-center">
+							Hospital número um em atendimento
+						</figcaption>
+					</figure>
+
+				</a>
+			</div>
+			
+		</section><!-- fim título-->
+		<section><!-- nosso vídeo-->
+			<div class="container"> <!-- container vídeo-->
+
+				<h3 class="text-center mb-3">Nossos Vídeos</h3>	
+				<div class="row d-flex"><!--início linha-->
+					<figure class="col-lg-3 img-fluid">
+						<iframe  src="https://www.youtube.com/embed/Fjhx4ZIT08c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</figure>
+
+					<div class="col-lg-3">
+						<article class="ml-3 text-justify">
+							A empresa,É pois... é, é uma empresa fictícia criada para prática do curso Programador Web.
+							Um cruso oferecido pelo Instituto Federal de Tocantins. 
+						</article>
+					</div>
+					<figure class="col-lg-3 img-fluid">
+						<iframe  src="https://www.youtube.com/embed/Fjhx4ZIT08c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</figure>
+
+					<div class="col-lg-3">
+						<article class="ml-3 text-justify">
+							A empresa,É pois... é, é uma empresa fictícia criada para prática do curso Programador Web.
+							Um cruso oferecido pelo Instituto Federal de Tocantins. 
+						</article>	
+					</div>
+
+				</div><!-- fim limha-->
+
+
+			</div><!-- fim container vídeo-->
+			
+		</section><!-- fim nosso vídeo-->
+
+
+		<section class="avaliado bg-dark mt-3 container"><!-- início título-->
+			<div class="container"><!--início container-->
+				<div class="row d-flex"><!-- início linha-->
+					<div class="col-lg-6 text-center mt-5">
+						<h1>
+							Melhor Avaliado	
+						</h1>
+						<article>
+							Este hospital foi avaliado por mais de 1000 usuários.
+						</article>
+						<button class="btn btn-primary mt-4">
+							Avaliar
+						</button>
+					</div>			
+					
+					<div class="col-lg-6">
+						<a href="">
+
+							<figure class="mt-4 text-center">
+								<img src="/img/hosp.jpg" alt="" class="img-fluid img-thumbnail">
+								<figcaption>
+									Melhor Hospital
+								</figcaption>
+							</figure>	
+						</a>
+					</div>
+
+				</div><!-- fim linha-->
+
+			</div><!-- fim container-->
+
+		</section><!-- fim melhor avaliado-->
+
+
+		<section class="equipe médica container"><!-- início equipe-->
+			<h2 class="text-center mt-3 mb-3">
+				Equipe Médica
+			</h2>
+			<div class="row"><!--inicio linha-->
+				<div class="media col-lg-6 col-sm-6"> <!-- início media-->
+					<img src="/img/mr-miyagi-smiling.jpg" alt="Mestre Miyagi" class="mestre img-fluid  img-thumbnail mt-4 mr-2">
+					<div class="media-body">
+						<h3 class="h5">
+							Dr. Miyagi
+						</h3>
+						<article>
+							" Todo fruto é conhecido por sua árvore,quando bem tratada ela produz bons frutos."
+						</article> 
+					</div>
+				</div><!-- fim midia-->
+
+				<div class="media col-lg-6 col-sm-6"> <!-- início media-->
+					<img src="/img/dohko.png" alt="Libra" class="mestre img-fluid  img-thumbnail mt-4 mr-2">
+					<div class="media-body">
+						<h3 class="h5">
+							Dr. Dohko
+						</h3>
+						<article>
+							" Todo fruto é conhecido por sua árvore,quando bem tratada ela produz bons frutos."
+						</article> 
+					</div>
+				</div><!-- fim midia-->
+				<div class="media col-lg-6 col-sm-6"> <!-- início media-->
+					<img src="/img/Daniel_LaRusso.png" alt="Daniel" class="mestre img-fluid  img-thumbnail mt-4 mr-2">
+					<div class="media-body">
+						<h3 class="h5">
+							Dr. Daniel
+						</h3>
+						<article>
+							" Todo fruto é conhecido por sua árvore,quando bem tratada ela produz bons frutos."
+						</article> 
+					</div>
+				</div><!-- fim midia-->
+				<div class="media col-lg-6 col-sm-6"> <!-- início media-->
+					<img src="/img/Johnny_lawrence.jpg" alt="Johnny" class="mestre img-fluid  img-thumbnail mt-4 mr-2">
+					<div class="media-body">
+						<h3 class="h5">
+							Dr. Johnny
+						</h3>
+						<article >
+							" Todo fruto é conhecido por sua árvore,quando bem tratada ela produz bons frutos."
+						</article>
+					</div> 
+				</div><!-- fim midia-->
+				<div class="media col-lg-6 col-sm-6"> <!-- início media-->
+					<img src="/img/mestra-genkai.png" alt="desenho" class="mestre img-fluid  img-thumbnail mt-4 mr-2">
+					<div class="media-body">
+						<h3 class="h5">
+							Genkai
+						</h3>
+						<article>
+							" Todo fruto é conhecido por sua árvore,quando bem tratada ela produz bons frutos."
+						</article> 
+					</div>
+				</div><!-- fim midia-->
+				<div class="media col-lg-6 col-sm-6"> <!-- início media-->
+					<img src="/img/mestre.jpg" alt="desenho" class="mestre img-fluid  img-thumbnail mt-4 mr-2">
+					<div class="media-body">
+						<h3 class="h5">
+							Mestre
+						</h3>
+						<article>
+							" Todo fruto é conhecido por sua árvore,quando bem tratada ela produz bons frutos."
+						</article> 
+					</div><!-- fim midia-->
+				</div><!-- fim linha-->
+			</div>
+
+		</section><!-- fim equipe-->
+	</main>
+	<section class="especialidades container"><!-- início especialidades -->
+		<div class="row">
+			<div class="col-md-4"><!-- inicio coluna 01 -->
+				<div class="card text-center "><!-- inicio card-->
+					<h3 class="card-header text-center">Especialidade 1</h3>
+					<div class="card-body ">
+						<p class="text-justify">
+
+							" Todo fruto é conhecido por sua árvore,quando bem tratada ela produz bons frutos."
+						</p>
+						<button class="btn btn-danger mt-4 ">
+							Ver aqui!
+						</button>
+					</div><!-- fim do card -->
+				</div>
+			</div><!--fim coluna-->	
+			<div class="col-md-4"><!-- inicio coluna 02 -->
+				<div class="card text-center"><!-- inicio card-->
+					<h3 class="card-header">Especialidade 2</h3>
+					<div class="card-body">
+						<p class="text-justify">
+
+							" Todo fruto é conhecido por sua árvore,quando bem tratada ela produz bons frutos."
+						</p>
+						<button class="btn btn-danger mt-4">
+							Ver aqui!
+						</button>
+					</div><!-- fim do card -->
+				</div>
+			</div><!--fim coluna-->	
+			<div class="col-md-4"><!-- inicio coluna 03 -->
+				<div class="card text-center"><!-- inicio card-->
+					<h3 class="card-header">Especialidade 3</h3>
+					<div class="card-body">
+						<p class="text-justify">
+
+							" Todo fruto é conhecido por sua árvore,quando bem tratada ela produz bons frutos."
+						</p>
+						<button class="btn btn-danger mt-4">
+							Ver aqui!
+						</button>
+					</div><!-- fim do card -->
+				</div>
+			</div><!--fim coluna-->	
+		</div>
+	</section><!-- fim especialidades -->
+	<footer class="mt-4 bg-danger">
+		<div class="container d-flex justify-content-between">
+			<span class="copy mt-4">
+				Copyrigth 2020
+			</span>
+			
+			<ul class="navbar icones">
+				<li><a href="https://github.com/" class="text-hide">GitHub</a></li>
+				<li><a href="https://www.google.com/" class="text-hide">Google Plus</a></li>
+				<li><a href="https://br.linkedin.com/" class="text-hide">Linkedin</a></li>
+				<li><a href="https://www.facebook.com/" class="text-hide">Facebook</a></li>
+			</ul>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.js"
+	integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+	crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 
 </body>
 </html>
